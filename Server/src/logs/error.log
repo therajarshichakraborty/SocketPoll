@@ -1,1 +1,34 @@
 {"error":{"cause":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"localhost:27017":{"$clusterTime":null,"address":"localhost:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":44611,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":null,"stale":false,"type":"Unknown"},"errorLabelSet":{},"message":"connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"localhost:27017":{"$clusterTime":null,"address":"localhost:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":44611,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":null,"stale":false,"type":"Unknown"}},"level":"error","message":"MongoDB connection failed","timestamp":"2026-05-07 22:18:44"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 15:32:44"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 15:32:44"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 15:32:45"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 15:32:45"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 15:32:46"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 15:32:47"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 15:32:48"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 15:32:50"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 15:32:51"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 15:32:53"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 15:32:55"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 15:34:19"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 15:34:19"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 15:34:19"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 15:34:19"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 15:34:20"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 15:34:20"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 15:34:20"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 15:34:20"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 15:34:21"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 15:34:21"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 15:34:22"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 15:34:22"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 15:34:23"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 15:34:23"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 15:34:25"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 15:34:25"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 15:38:54"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 15:38:54"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 15:38:55"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 15:38:55"}
+{"level":"error","message":"Application startup failed argument handler is required","stack":"TypeError: argument handler is required\n    at <anonymous> (D:\\Rajarshi Chakraborty ( Arghya )\\Projects\\Polling-App-Hackathon\\Server\\node_modules\\router\\lib\\route.js:221:17)\n    at <anonymous> (D:\\Rajarshi Chakraborty ( Arghya )\\Projects\\Polling-App-Hackathon\\Server\\node_modules\\express\\lib\\application.js:479:19)\n    at createApp (D:\\Rajarshi Chakraborty ( Arghya )\\Projects\\Polling-App-Hackathon\\Server\\src\\app.ts:29:7)\n    at main (D:\\Rajarshi Chakraborty ( Arghya )\\Projects\\Polling-App-Hackathon\\Server\\src\\server.ts:16:15)\n    at processTicksAndRejections (native:7:39)","timestamp":"2026-05-13 15:43:05"}
+{"level":"error","message":"Application startup failed authRoutes is not defined","stack":"ReferenceError: authRoutes is not defined\n    at createApp (D:\\Rajarshi Chakraborty ( Arghya )\\Projects\\Polling-App-Hackathon\\Server\\src\\app.ts:15:37)\n    at main (D:\\Rajarshi Chakraborty ( Arghya )\\Projects\\Polling-App-Hackathon\\Server\\src\\server.ts:16:15)\n    at processTicksAndRejections (native:7:39)","timestamp":"2026-05-13 16:10:10"}
