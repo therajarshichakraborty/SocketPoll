@@ -1,6 +1,7 @@
 import { redis } from "../../config/redis.config";
 import { env } from "../../config/env.config";
 import type { OAuthSessionData } from "../types/oidc.types";
+import logger from "../../config/logger.config";
 
 const TTL = env.OAUTH_SESSION_TTL_SECONDS;
 
@@ -39,7 +40,7 @@ export async function consumeOAuthSession(
 
     return parsed;
   } catch {
-    console.error("[session] Failed to parse OAuth session", { state });
+    logger.error("[session] Failed to parse OAuth session", { state });
     return null;
   }
 }

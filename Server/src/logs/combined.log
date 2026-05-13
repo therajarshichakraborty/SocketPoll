@@ -155,3 +155,19 @@
 {"level":"info","message":"Google OIDC provider initialized","timestamp":"2026-05-13 16:16:18"}
 {"level":"info","message":"Redis connected","timestamp":"2026-05-13 16:16:18"}
 {"level":"info","message":"Server running on port http://localhost:4000","timestamp":"2026-05-13 16:16:18"}
+{"level":"info","message":"Initializing Google OIDC provider...","timestamp":"2026-05-13 17:43:14"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 17:43:14"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 17:43:14"}
+{"level":"info","message":"Google OIDC provider initialized","timestamp":"2026-05-13 17:43:15"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 17:43:15"}
+{"level":"error","message":"[Redis] connection error:","timestamp":"2026-05-13 17:43:15"}
+{"level":"info","message":"Initializing Google OIDC provider...","timestamp":"2026-05-13 17:44:20"}
+{"level":"info","message":"[Redis] connected","timestamp":"2026-05-13 17:44:20"}
+{"level":"info","message":"Google OIDC provider initialized","timestamp":"2026-05-13 17:44:21"}
+{"level":"info","message":"Redis connected","timestamp":"2026-05-13 17:44:21"}
+{"level":"info","message":"Server running on port http://localhost:4000","timestamp":"2026-05-13 17:44:21"}
+{"level":"info","message":"Initializing Google OIDC provider...","timestamp":"2026-05-13 17:47:53"}
+{"level":"info","message":"[Redis] connected","timestamp":"2026-05-13 17:47:53"}
+{"level":"info","message":"Google OIDC provider initialized","timestamp":"2026-05-13 17:47:53"}
+{"level":"info","message":"Redis connected","timestamp":"2026-05-13 17:47:53"}
+{"level":"info","message":"Server running on port http://localhost:4000","timestamp":"2026-05-13 17:47:53"}
