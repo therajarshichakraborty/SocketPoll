@@ -11,7 +11,10 @@ app.use(requestLogger);
 
 app.get("/", (_: Request, res: Response) => {
   res.json({
-    name: "server from 4000",
+    name: "Rajarshi Chakraborty",
+    Address: "West Bengal",
+    Project: "Polling Application",
+    data: "server from 4000",
   });
 });
 

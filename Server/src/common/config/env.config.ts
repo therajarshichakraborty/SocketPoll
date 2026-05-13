@@ -4,8 +4,8 @@ import logger from "./logger.config";
 
 const envSchema = z.object({
   NODE_ENV: z.enum(["development", "production", "test"]),
-  PORT: z.coerce.number().default(4000), 
-  MONGODB_URI: z.coerce.string().min(1),
+  PORT: z.coerce.number().default(4000),
+  POSTGRES_DATABASE_URL: z.coerce.string().min(1),
   JWT_ACCESS_SECRET: z.coerce.string().min(16),
   JWT_ACCESS_EXPIRES_IN: z.coerce.string(),
   JWT_REFRESH_SECRET: z.coerce.string().min(16),
@@ -17,6 +17,7 @@ const envSchema = z.object({
   SMTP_FROM_NAME: z.coerce.string(),
   SMTP_FROM_EMAIL: z.email(),
   CLIENT_URL: z.url(),
+  REDIS_URL:z.coerce.string()
 });
 
 const parsedEnv = envSchema.safeParse(process.env);

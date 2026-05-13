@@ -29,3 +29,11 @@
 {"level":"info","message":"Server is listening to the port http://localhost:4000","timestamp":"2026-05-12 23:46:54"}
 {"level":"info","message":"GET /","timestamp":"2026-05-12 23:46:58"}
 {"level":"info","message":"GET /favicon.ico","timestamp":"2026-05-12 23:46:58"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-12 23:50:51"}
+{"level":"info","message":"Server is listening to the port http://localhost:4000","timestamp":"2026-05-12 23:50:51"}
+{"level":"info","message":"GET /","timestamp":"2026-05-12 23:50:55"}
+{"level":"info","message":"GET /favicon.ico","timestamp":"2026-05-12 23:50:55"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-13 13:34:40"}
+{"level":"info","message":"Server is listening to the port http://localhost:4000","timestamp":"2026-05-13 13:34:40"}
+{"level":"info","message":"GET /","timestamp":"2026-05-13 13:34:44"}
+{"level":"info","message":"GET /favicon.ico","timestamp":"2026-05-13 13:34:44"}
