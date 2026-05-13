@@ -1,46 +1,36 @@
-class ApiError extends Error {
-  public statusCode: number;
-  public success: boolean;
-  public errors: unknown[];
+export class AppError extends Error {
+  public readonly statusCode: number;
+  public readonly isOperational: boolean;
 
-  constructor(statusCode: number, message: string, errors: unknown[] = [], stack?: string) {
+  constructor(message: string, statusCode = 400, isOperational = true) {
     super(message);
     this.statusCode = statusCode;
-    this.success = false;
-    this.errors = errors;
-
-    Object.setPrototypeOf(this, ApiError.prototype);
-
-    if (stack) {
-      this.stack = stack;
-    } else {
-      Error.captureStackTrace(this, this.constructor);
-    }
-  }
-
-  static badRequest(message = "Bad Request", errors: unknown[] = []): ApiError {
-    return new ApiError(400, message, errors);
-  }
-
-  static unauthorized(message = "Unauthorized", errors: unknown[] = []): ApiError {
-    return new ApiError(401, message, errors);
-  }
-
-  static forbidden(message = "Forbidden", errors: unknown[] = []): ApiError {
-    return new ApiError(403, message, errors);
-  }
-
-  static notFound(message = "Resource Not Found", errors: unknown[] = []): ApiError {
-    return new ApiError(404, message, errors);
-  }
-
-  static conflict(message = "Conflict", errors: unknown[] = []): ApiError {
-    return new ApiError(409, message, errors);
-  }
-
-  static internal(message = "Internal Server Error", errors: unknown[] = []): ApiError {
-    return new ApiError(500, message, errors);
+    this.isOperational = isOperational;
+    Object.setPrototypeOf(this, new.target.prototype);
+    Error.captureStackTrace(this);
   }
 }
 
-export default ApiError;
+export class NotFoundError extends AppError {
+  constructor(resource = "Resource") {
+    super(`${resource} not found`, 404);
+  }
+}
+
+export class ValidationError extends AppError {
+  constructor(message: string) {
+    super(message, 422);
+  }
+}
+
+export class ForbiddenError extends AppError {
+  constructor(message = "Forbidden") {
+    super(message, 403);
+  }
+}
+
+export class ConflictError extends AppError {
+  constructor(message: string) {
+    super(message, 409);
+  }
+}

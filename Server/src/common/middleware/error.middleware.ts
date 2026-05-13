@@ -1,12 +1,12 @@
 import type { NextFunction, Request, Response } from "express";
-import ApiError from "../utils/api.error";
+import { AppError } from "../utils/api.error";
 import logger from "../config/logger.config";
 
 export const errorMiddleware = (err: Error, _: Request, res: Response, __: NextFunction) => {
   let statusCode = 500;
   let message = "Internal server error";
 
-  if (err instanceof ApiError) {
+  if (err instanceof AppError) {
     statusCode = err.statusCode;
     message = err.message;
   }
