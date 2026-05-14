@@ -1,6 +1,6 @@
 import bcrypt from "bcrypt";
 import logger from "../config/logger.config";
-import ApiError from "./api.error";
+import { ApiError } from "./api.error";
 
 export const hashPassword = async (value: string, salt: number = 10): Promise<string> => {
   try {
@@ -11,7 +11,7 @@ export const hashPassword = async (value: string, salt: number = 10): Promise<st
       error: error instanceof Error ? error.message : error,
     });
 
-    throw ApiError.internal("Password hashing failed");
+    throw "Password hashing failed";
   }
 };
 
@@ -24,6 +24,6 @@ export const comparePassword = async (value: string, hashedValue: string): Promi
       error: error instanceof Error ? error.message : error,
     });
 
-    throw ApiError.internal("Password comparison failed");
+    throw "Password comparison failed";
   }
 };

@@ -2,21 +2,18 @@ import { Pool } from "pg";
 import { drizzle } from "drizzle-orm/node-postgres";
 import { env } from "./env.config";
 import logger from "./logger.config";
+import * as schema from "../../database/schema/index"; // ← add this
 
 const pool = new Pool({
   connectionString: env.POSTGRES_DATABASE_URL,
   max: 20,
   idleTimeoutMillis: 30000,
   connectionTimeoutMillis: 10000,
-  ssl:
-    env.NODE_ENV === "production"
-      ? {
-          rejectUnauthorized: false,
-        }
-      : false,
+  ssl: env.NODE_ENV === "production" ? { rejectUnauthorized: false } : false,
 });
 
-export const db = drizzle(pool);
+export const db = drizzle(pool, { schema }); // ← add schema here
+export { pool };
 
 export async function connectToDB(): Promise<void> {
   try {

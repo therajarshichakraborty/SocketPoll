@@ -62,9 +62,7 @@
         "users_email_unique": {
           "name": "users_email_unique",
           "nullsNotDistinct": false,
-          "columns": [
-            "email"
-          ]
+          "columns": ["email"]
         }
       },
       "policies": {},
@@ -155,12 +153,8 @@
           "name": "polls_creator_id_users_id_fk",
           "tableFrom": "polls",
           "tableTo": "users",
-          "columnsFrom": [
-            "creator_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["creator_id"],
+          "columnsTo": ["id"],
           "onDelete": "cascade",
           "onUpdate": "no action"
         }
@@ -214,12 +208,8 @@
           "name": "questions_poll_id_polls_id_fk",
           "tableFrom": "questions",
           "tableTo": "polls",
-          "columnsFrom": [
-            "poll_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["poll_id"],
+          "columnsTo": ["id"],
           "onDelete": "cascade",
           "onUpdate": "no action"
         }
@@ -273,12 +263,8 @@
           "name": "options_question_id_questions_id_fk",
           "tableFrom": "options",
           "tableTo": "questions",
-          "columnsFrom": [
-            "question_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["question_id"],
+          "columnsTo": ["id"],
           "onDelete": "cascade",
           "onUpdate": "no action"
         }
@@ -332,12 +318,8 @@
           "name": "responses_poll_id_polls_id_fk",
           "tableFrom": "responses",
           "tableTo": "polls",
-          "columnsFrom": [
-            "poll_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["poll_id"],
+          "columnsTo": ["id"],
           "onDelete": "cascade",
           "onUpdate": "no action"
         },
@@ -345,12 +327,8 @@
           "name": "responses_user_id_users_id_fk",
           "tableFrom": "responses",
           "tableTo": "users",
-          "columnsFrom": [
-            "user_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["user_id"],
+          "columnsTo": ["id"],
           "onDelete": "set null",
           "onUpdate": "no action"
         }
@@ -397,12 +375,8 @@
           "name": "response_answers_response_id_responses_id_fk",
           "tableFrom": "response_answers",
           "tableTo": "responses",
-          "columnsFrom": [
-            "response_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["response_id"],
+          "columnsTo": ["id"],
           "onDelete": "cascade",
           "onUpdate": "no action"
         },
@@ -410,12 +384,8 @@
           "name": "response_answers_question_id_questions_id_fk",
           "tableFrom": "response_answers",
           "tableTo": "questions",
-          "columnsFrom": [
-            "question_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["question_id"],
+          "columnsTo": ["id"],
           "onDelete": "cascade",
           "onUpdate": "no action"
         },
@@ -423,12 +393,8 @@
           "name": "response_answers_option_id_options_id_fk",
           "tableFrom": "response_answers",
           "tableTo": "options",
-          "columnsFrom": [
-            "option_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["option_id"],
+          "columnsTo": ["id"],
           "onDelete": "cascade",
           "onUpdate": "no action"
         }
@@ -489,12 +455,8 @@
           "name": "room_participants_room_id_poll_rooms_id_fk",
           "tableFrom": "room_participants",
           "tableTo": "poll_rooms",
-          "columnsFrom": [
-            "room_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["room_id"],
+          "columnsTo": ["id"],
           "onDelete": "cascade",
           "onUpdate": "no action"
         }
@@ -575,12 +537,8 @@
           "name": "poll_rooms_poll_id_polls_id_fk",
           "tableFrom": "poll_rooms",
           "tableTo": "polls",
-          "columnsFrom": [
-            "poll_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["poll_id"],
+          "columnsTo": ["id"],
           "onDelete": "cascade",
           "onUpdate": "no action"
         }
@@ -590,9 +548,7 @@
         "poll_rooms_room_code_unique": {
           "name": "poll_rooms_room_code_unique",
           "nullsNotDistinct": false,
-          "columns": [
-            "room_code"
-          ]
+          "columns": ["room_code"]
         }
       },
       "policies": {},
@@ -604,12 +560,7 @@
     "public.poll_room_status": {
       "name": "poll_room_status",
       "schema": "public",
-      "values": [
-        "waiting",
-        "active",
-        "ended",
-        "expired"
-      ]
+      "values": ["waiting", "active", "ended", "expired"]
     }
   },
   "schemas": {},

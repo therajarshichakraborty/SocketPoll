@@ -6,3 +6,4 @@ export * from "./response.schema";
 export * from "./response-answer.schema";
 export * from "./room-participents.schema";
 export * from "./poll-rooms.schema";
+export * from "./relations";

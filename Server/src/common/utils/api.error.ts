@@ -1,36 +1,40 @@
 export class ApiError extends Error {
-  public readonly statusCode: number;
-  public readonly isOperational: boolean;
-
-  constructor(message: string, statusCode = 400, isOperational = true) {
+  constructor(
+    public message: string,
+    public statusCode: number,
+    public code: string,
+  ) {
     super(message);
-    this.statusCode = statusCode;
-    this.isOperational = isOperational;
-    Object.setPrototypeOf(this, new.target.prototype);
-    Error.captureStackTrace(this);
+    this.name = "AppError";
   }
 }
 
 export class NotFoundError extends ApiError {
   constructor(resource = "Resource") {
-    super(`${resource} not found`, 404);
-  }
-}
-
-export class ValidationError extends ApiError {
-  constructor(message: string) {
-    super(message, 422);
+    super(`${resource} not found`, 404, "NOT_FOUND");
   }
 }
 
 export class ForbiddenError extends ApiError {
-  constructor(message = "Forbidden") {
-    super(message, 403);
+  constructor(message = "Access denied") {
+    super(message, 403, "FORBIDDEN");
+  }
+}
+
+export class BadRequestError extends ApiError {
+  constructor(message: string) {
+    super(message, 400, "BAD_REQUEST");
   }
 }
 
 export class ConflictError extends ApiError {
   constructor(message: string) {
-    super(message, 409);
+    super(message, 409, "CONFLICT");
+  }
+}
+
+export class UnauthorizedError extends ApiError {
+  constructor(message = "Unauthorized") {
+    super(message, 401, "UNAUTHORIZED");
   }
 }
