@@ -719,3 +719,41 @@
 {"level":"info","message":"POST /api/polls/2005d977-0a77-4c11-b122-362f5a1994a5/vote","timestamp":"2026-05-14 14:51:21"}
 {"level":"info","message":"PATCH /api/polls/2005d977-0a77-4c11-b122-362f5a1994a5/close","timestamp":"2026-05-14 14:52:00"}
 {"level":"info","message":"DELETE /api/polls/2005d977-0a77-4c11-b122-362f5a1994a5","timestamp":"2026-05-14 14:52:29"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-14 17:43:41"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-14 17:43:41"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-14 17:43:41"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-14 17:43:41"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-14 17:48:42"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-14 17:48:42"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-14 17:48:42"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-14 17:48:42"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-14 17:48:49"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-14 17:48:49"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-14 17:48:49"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-14 17:48:49"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-14 17:48:49"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-14 17:50:09"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-14 17:50:09"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-14 17:50:09"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-14 17:50:09"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-14 17:50:09"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-14 17:51:03"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-14 17:51:03"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-14 17:51:03"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-14 17:51:03"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-14 17:51:03"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-14 17:54:35"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-14 17:54:35"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-14 17:54:35"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-14 17:54:35"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-14 17:54:35"}
+{"level":"info","message":"POST /api/auth/register","timestamp":"2026-05-14 18:04:52"}
+{"level":"info","message":"POST /api/auth/register","timestamp":"2026-05-14 18:05:41"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2026-05-14 18:07:27"}
+{"level":"info","message":"POST /api/polls","timestamp":"2026-05-14 18:12:59"}
+{"level":"info","message":"GET /api/polls/37452450-daf6-407c-bd3f-5b76ca22d137","timestamp":"2026-05-14 18:13:54"}
+{"level":"info","message":"POST /api/polls","timestamp":"2026-05-14 18:14:28"}
+{"level":"info","message":"POST /api/polls/d3c4582f-8720-4885-9cfe-79bf580641e9","timestamp":"2026-05-14 18:15:22"}
+{"level":"info","message":"GET /api/polls/d3c4582f-8720-4885-9cfe-79bf580641e9","timestamp":"2026-05-14 18:15:26"}
+{"level":"info","message":"PATCH /api/polls/d3c4582f-8720-4885-9cfe-79bf580641e9/publish","timestamp":"2026-05-14 18:17:50"}
+{"level":"info","message":"[socket] connected: LGI05Pkejxoda87-AAAB user: anonymous","timestamp":"2026-05-14 18:29:00"}

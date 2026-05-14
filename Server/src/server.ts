@@ -3,12 +3,15 @@ import { createApp } from "./app";
 import { env } from "./common/config/env.config";
 import logger from "./common/config/logger.config";
 import { connectToDB } from "../src/common/config/db.config";
+
+import { initSocket } from "./websockets/socket";
 async function main(): Promise<void> {
   logger.info("Initializing server");
 
   await connectToDB();
   const app = createApp();
   const server = createServer(app);
+  initSocket(server); 
 
   server.listen(env.PORT, () => {
     logger.info(`Server is listening on port http://localhost:${env.PORT}`);

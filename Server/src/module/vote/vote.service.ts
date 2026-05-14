@@ -12,6 +12,7 @@ import {
   NotFoundError,
 } from "../../common/utils/api.error";
 import { CastVoteDTO } from "./vote.dto";
+import { emitVoteUpdate } from "../poll/poll.event"
 
 export async function castVoteService(pollId: string, data: CastVoteDTO, userId?: string) {
   // ── 1. Load poll ───────────────────────────────────────────────────────────
@@ -42,7 +43,7 @@ export async function castVoteService(pollId: string, data: CastVoteDTO, userId?
   const anonymousId = !userId ? data.anonymousId : undefined;
   if (!userId && !anonymousId) {
     throw new BadRequestError(
-      "Anonymous ID required to track your vote. Please provide anonymousId.",
+      "Anonymous ID required to track your vote. Please provide anonymousId."
     );
   }
 
@@ -60,31 +61,37 @@ export async function castVoteService(pollId: string, data: CastVoteDTO, userId?
     throw new BadRequestError(
       `Missing answers for required questions: ${missingRequired
         .map((q: any) => q.question)
-        .join(", ")}`,
+        .join(", ")}`
     );
   }
 
   // ── 9. No answers for questions not in this poll ──────────────────────────
   const validQuestionIds = new Set(poll.questions.map((q: any) => q.id));
-  const invalidQuestions = Object.keys(data.answers).filter((qId) => !validQuestionIds.has(qId));
+  const invalidQuestions = Object.keys(data.answers).filter(
+    (qId) => !validQuestionIds.has(qId)
+  );
   if (invalidQuestions.length > 0) {
     throw new BadRequestError("One or more question IDs are invalid");
   }
 
-  // ── 10. Validate option ownership (options belong to correct questions) ────
+  // ── 10. Validate option ownership ─────────────────────────────────────────
   const validOptions = await validateOptionOwnershipRepository(pollId, data.answers);
-
-  // Build a set of valid (questionId, optionId) pairs
   const validPairs = new Set(validOptions.map((o) => `${o.questionId}:${o.id}`));
 
   for (const [questionId, optionId] of Object.entries(data.answers)) {
     if (!validPairs.has(`${questionId}:${optionId}`)) {
-      throw new BadRequestError(`Option ${optionId} does not belong to question ${questionId}`);
+      throw new BadRequestError(
+        `Option ${optionId} does not belong to question ${questionId}`
+      );
     }
   }
 
   // ── 11. Cast vote in transaction ──────────────────────────────────────────
   const response = await castVoteRepository(pollId, data.answers, userId, anonymousId);
+
+  // ── 12. Emit real-time update to all poll watchers ────────────────────────
+  // Fire and forget — don't await, never block the vote response
+  emitVoteUpdate(pollId);
 
   return {
     responseId: response.id,

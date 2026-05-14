@@ -8,6 +8,7 @@ import {
 } from "./poll.repository";
 import { BadRequestError, ForbiddenError, NotFoundError } from "../../common/utils/api.error";
 import { CreatePollDTO, PollQueryDTO, UpdatePollDTO } from "./poll.dto";
+import { emitPollClosed, emitPollPublished } from "../poll/poll.event"; // ← add this
 
 export async function createPollService(creatorId: string, data: CreatePollDTO) {
   if (data.expiresAt && new Date(data.expiresAt) <= new Date()) {
@@ -19,13 +20,11 @@ export async function createPollService(creatorId: string, data: CreatePollDTO) 
     throw new BadRequestError("Duplicate questions are not allowed");
   }
 
-  const poll = await createPollRepository(creatorId, data);
-  return poll;
+  return createPollRepository(creatorId, data);
 }
 
 export async function getPollService(pollId: string, requesterId?: string) {
   const poll = await getPollByIdRepository(pollId);
-
   if (!poll) throw new NotFoundError("Poll");
 
   if (!poll.isPublished && poll.creatorId !== requesterId) {
@@ -39,16 +38,23 @@ export async function getMyPollsService(creatorId: string, query: PollQueryDTO) 
   return getPollsByCreatorRepository(creatorId, query);
 }
 
-export async function updatePollService(pollId: string, requesterId: string, data: UpdatePollDTO) {
+export async function updatePollService(
+  pollId: string,
+  requesterId: string,
+  data: UpdatePollDTO
+) {
   const poll = await getPollOwnerRepository(pollId);
-
   if (!poll) throw new NotFoundError("Poll");
   if (poll.creatorId !== requesterId) throw new ForbiddenError();
-
   if (poll.isClosed) throw new BadRequestError("Cannot update a closed poll");
 
-  if (poll.isPublished && (data.isAnonymous !== undefined || data.requireAuth !== undefined)) {
-    throw new BadRequestError("Cannot change anonymity or auth settings after publishing");
+  if (
+    poll.isPublished &&
+    (data.isAnonymous !== undefined || data.requireAuth !== undefined)
+  ) {
+    throw new BadRequestError(
+      "Cannot change anonymity or auth settings after publishing"
+    );
   }
 
   return updatePollRepository(pollId, {
@@ -78,7 +84,12 @@ export async function publishPollService(pollId: string, requesterId: string) {
     }
   }
 
-  return updatePollRepository(pollId, { isPublished: true });
+  const updated = await updatePollRepository(pollId, { isPublished: true });
+
+  // Notify all watchers this poll is now live
+  emitPollPublished(pollId);
+
+  return updated;
 }
 
 export async function closePollService(pollId: string, requesterId: string) {
@@ -87,7 +98,12 @@ export async function closePollService(pollId: string, requesterId: string) {
   if (poll.creatorId !== requesterId) throw new ForbiddenError();
   if (poll.isClosed) throw new BadRequestError("Poll is already closed");
 
-  return updatePollRepository(pollId, { isClosed: true });
+  const updated = await updatePollRepository(pollId, { isClosed: true });
+
+  // Notify all watchers this poll is now closed
+  emitPollClosed(pollId);
+
+  return updated;
 }
 
 export async function reopenPollService(pollId: string, requesterId: string) {
@@ -98,7 +114,9 @@ export async function reopenPollService(pollId: string, requesterId: string) {
 
   const full = await getPollByIdRepository(pollId);
   if (full?.expiresAt && full.expiresAt < new Date()) {
-    throw new BadRequestError("Cannot reopen poll — expiry date has passed. Update expiry first.");
+    throw new BadRequestError(
+      "Cannot reopen poll — expiry date has passed. Update expiry first."
+    );
   }
 
   return updatePollRepository(pollId, { isClosed: false });
