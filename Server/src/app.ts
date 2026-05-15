@@ -18,12 +18,15 @@ export function createApp(): Application {
   app.use(cookieParser());
   app.use(requestLogger);
 
-  app.use(cors({
-    origin: "https://socket-poll.vercel.app",   
-    credentials: true,                 
-    methods: ["GET", "POST", "PATCH", "DELETE", "OPTIONS"],
-    allowedHeaders: ["Content-Type", "Authorization"],
-  }));
+ app.use(
+  cors({
+    origin: [
+      "http://localhost:3000",
+      "https://socket-poll.vercel.app",
+    ],
+    credentials: true,
+  })
+);
 
   // ── Health check ──────────────────────────────────────────────
   app.get("/health", (_req: Request, res: Response) => {
