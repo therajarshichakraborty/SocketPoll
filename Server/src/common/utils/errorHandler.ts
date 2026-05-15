@@ -2,13 +2,19 @@ import { Request, Response, NextFunction } from "express";
 import { ApiError } from "./api.error";
 import { ZodError } from "zod";
 
-export function errorHandler(err: unknown, req: Request, res: Response, next: NextFunction) {
+export function errorHandler(
+  err: unknown,
+  req: Request,
+  res: Response,
+  next: NextFunction
+) {
   // Zod validation errors
   if (err instanceof ZodError) {
     return res.status(400).json({
       success: false,
       code: "VALIDATION_ERROR",
-      errors: err.errors.map((e: any) => ({
+
+      errors: err.issues.map((e) => ({
         field: e.path.join("."),
         message: e.message,
       })),
@@ -26,6 +32,7 @@ export function errorHandler(err: unknown, req: Request, res: Response, next: Ne
 
   // Unknown errors
   console.error("[Unhandled Error]", err);
+
   return res.status(500).json({
     success: false,
     code: "INTERNAL_ERROR",

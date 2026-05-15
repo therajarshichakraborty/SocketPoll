@@ -84,14 +84,20 @@ export default function CreatePollPage() {
         description: description.trim() || undefined,
         isAnonymous,
         requireAuth,
-        expiresAt: expiresAt || undefined,
+        expiresAt: expiresAt ? new Date(expiresAt).toISOString() : undefined,
         questions: questions.map((q, qi) => ({
           question: q.question.trim(),
           isRequired: q.isRequired,
           order: qi,
-          options: q.options.map((o, oi) => ({ text: o.text.trim(), order: oi })),
+
+          options: q.options.map((o, oi) => ({
+            text: o.text.trim(),
+            order: oi,
+          })),
         })),
       });
+
+      await api.patch(`/polls/${data.data.id}/publish`);
       toast.success("Poll created!");
       navigate(`/polls/${data.data.id}/analytics`);
     } catch (err: any) {

@@ -12,11 +12,35 @@ import {
   updatePollService,
 } from "./poll.service";
 
-export const createPollController = asyncHandler(async (req: Request, res: Response) => {
-  const data = createPollValidator.parse(req.body);
-  const poll = await createPollService(req.user!.id, data);
-  return res.status(201).json({ success: true, data: poll });
-});
+export const createPollController = asyncHandler(
+  async (req: Request, res: Response) => {
+
+    console.log("RAW BODY:");
+    console.log(JSON.stringify(req.body, null, 2));
+
+    const result = createPollValidator.safeParse(req.body);
+
+    if (!result.success) {
+      console.log("ZOD ERROR:");
+      console.log(result.error.flatten());
+
+      return res.status(400).json({
+        success: false,
+        errors: result.error.flatten(),
+      });
+    }
+
+    const poll = await createPollService(
+      req.user!.id,
+      result.data
+    );
+
+    return res.status(201).json({
+      success: true,
+      data: poll,
+    });
+  }
+);
 
 export const getMyPollsController = asyncHandler(async (req: Request, res: Response) => {
   const query = pollQueryValidator.parse(req.query);
@@ -24,7 +48,7 @@ export const getMyPollsController = asyncHandler(async (req: Request, res: Respo
   return res.json({ success: true, ...result });
 });
 
-export const getPollController = asyncHandler(async (req: Request, res: Response) => {
+export const getPollController = asyncHandler(async (req: Request|any, res: Response) => {
   const poll = await getPollService(req.params.pollId, req.user?.id);
   return res.json({ success: true, data: poll });
 });

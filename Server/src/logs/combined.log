@@ -757,3 +757,1000 @@
 {"level":"info","message":"GET /api/polls/d3c4582f-8720-4885-9cfe-79bf580641e9","timestamp":"2026-05-14 18:15:26"}
 {"level":"info","message":"PATCH /api/polls/d3c4582f-8720-4885-9cfe-79bf580641e9/publish","timestamp":"2026-05-14 18:17:50"}
 {"level":"info","message":"[socket] connected: LGI05Pkejxoda87-AAAB user: anonymous","timestamp":"2026-05-14 18:29:00"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 17:58:31"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 17:58:31"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 17:58:31"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 17:58:31"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 17:58:31"}
+{"level":"info","message":"GET /","timestamp":"2026-05-15 17:58:45"}
+{"level":"info","message":"GET /","timestamp":"2026-05-15 17:58:45"}
+{"level":"info","message":"GET /favicon.ico","timestamp":"2026-05-15 17:58:45"}
+{"level":"info","message":"GET /health","timestamp":"2026-05-15 17:58:51"}
+{"level":"info","message":"GET /abc","timestamp":"2026-05-15 17:59:17"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 17:59:34"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 17:59:34"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 17:59:34"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 17:59:34"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 17:59:34"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 18:01:00"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 18:01:00"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 18:01:05"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 18:01:05"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 18:02:16"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 18:02:17"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 18:02:17"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 18:02:17"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 18:02:17"}
+{"level":"info","message":"GET /abc","timestamp":"2026-05-15 18:02:20"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 18:06:07"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 18:06:07"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 18:20:41"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 18:20:42"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 18:20:42"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 18:20:42"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 18:20:42"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:20:51"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:29:06"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:29:06"}
+{"level":"info","message":"OPTIONS /api/auth/register","timestamp":"2026-05-15 18:30:27"}
+{"level":"info","message":"POST /api/auth/register","timestamp":"2026-05-15 18:30:28"}
+{"level":"info","message":"OPTIONS /api/polls/me","timestamp":"2026-05-15 18:30:28"}
+{"level":"info","message":"OPTIONS /api/polls/me","timestamp":"2026-05-15 18:30:28"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 18:30:28"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 18:30:28"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:31:34"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:31:34"}
+{"level":"info","message":"OPTIONS /api/auth/login","timestamp":"2026-05-15 18:31:50"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2026-05-15 18:31:50"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:31:50"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:31:50"}
+{"level":"info","message":"OPTIONS /api/auth/login","timestamp":"2026-05-15 18:32:00"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2026-05-15 18:32:00"}
+{"level":"info","message":"OPTIONS /api/polls/me","timestamp":"2026-05-15 18:32:00"}
+{"level":"info","message":"OPTIONS /api/polls/me","timestamp":"2026-05-15 18:32:00"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 18:32:00"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 18:32:00"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 18:35:03"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 18:35:03"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 18:35:03"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 18:35:03"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 18:35:03"}
+{"level":"info","message":"OPTIONS /api/polls","timestamp":"2026-05-15 18:35:20"}
+{"level":"info","message":"POST /api/polls","timestamp":"2026-05-15 18:35:20"}
+{"level":"info","message":"OPTIONS /api/polls","timestamp":"2026-05-15 18:35:50"}
+{"level":"info","message":"POST /api/polls","timestamp":"2026-05-15 18:35:50"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 18:37:56"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 18:37:56"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 18:37:56"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 18:37:56"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 18:37:56"}
+{"level":"info","message":"OPTIONS /api/polls","timestamp":"2026-05-15 18:38:03"}
+{"level":"info","message":"POST /api/polls","timestamp":"2026-05-15 18:38:03"}
+{"level":"info","message":"OPTIONS /api/polls","timestamp":"2026-05-15 18:38:17"}
+{"level":"info","message":"POST /api/polls","timestamp":"2026-05-15 18:38:17"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:42:25"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:42:25"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 18:42:25"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 18:42:25"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:42:25"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:42:25"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:44:35"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:44:35"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 18:44:35"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 18:44:35"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:44:35"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:44:35"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:44:48"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:44:48"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 18:44:48"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 18:44:48"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:44:48"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:44:48"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 18:51:40"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:51:40"}
+{"level":"info","message":"[socket] connected: b7s-iwJkVLli66GaAAAE user: anonymous","timestamp":"2026-05-15 18:51:48"}
+{"level":"info","message":"[socket] disconnected: b7s-iwJkVLli66GaAAAE reason: client namespace disconnect","timestamp":"2026-05-15 18:52:05"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 18:52:05"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:52:05"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 18:52:42"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 18:52:42"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 18:52:42"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 18:52:42"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:52:42"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:52:42"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:52:42"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:52:42"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:52:42"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:52:42"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 18:54:00"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 18:54:00"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 18:54:00"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 18:54:00"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 18:54:00"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 18:54:05"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 18:54:05"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 18:54:05"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 18:54:05"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 18:54:05"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 18:54:07"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 18:54:07"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 18:54:07"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 18:54:07"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 18:54:07"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 18:54:11"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 18:54:11"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 18:54:11"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 18:54:11"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 18:54:11"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 18:54:20"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 18:54:20"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 18:54:20"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 18:54:20"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 18:54:20"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 18:54:22"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 18:54:22"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 18:54:22"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 18:54:22"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 18:54:22"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 18:54:26"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 18:54:26"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 18:54:26"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 18:54:26"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 18:54:26"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 18:54:28"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 18:54:28"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 18:54:28"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 18:54:28"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 18:54:28"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 18:54:44"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 18:54:44"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 18:54:44"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 18:54:44"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 18:54:44"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 18:54:47"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 18:54:47"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 18:54:47"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 18:54:47"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 18:54:47"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 18:54:56"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 18:54:56"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 18:54:56"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 18:54:56"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 18:54:56"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 18:55:08"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 18:55:09"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 18:55:09"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 18:55:09"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 18:55:09"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 18:55:29"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 18:55:29"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 18:55:29"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 18:55:29"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 18:55:29"}
+{"level":"info","message":"OPTIONS /api/auth/login","timestamp":"2026-05-15 18:55:44"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2026-05-15 18:55:44"}
+{"level":"info","message":"OPTIONS /api/polls/me","timestamp":"2026-05-15 18:55:44"}
+{"level":"info","message":"OPTIONS /api/polls/me","timestamp":"2026-05-15 18:55:44"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 18:55:44"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 18:55:44"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:55:45"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:55:45"}
+{"level":"info","message":"OPTIONS /api/auth/login","timestamp":"2026-05-15 18:55:56"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2026-05-15 18:55:56"}
+{"level":"info","message":"OPTIONS /api/polls/me","timestamp":"2026-05-15 18:55:56"}
+{"level":"info","message":"OPTIONS /api/polls/me","timestamp":"2026-05-15 18:55:56"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 18:55:56"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 18:55:56"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:55:57"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:55:57"}
+{"level":"info","message":"OPTIONS /api/auth/login","timestamp":"2026-05-15 18:56:50"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2026-05-15 18:56:50"}
+{"level":"info","message":"OPTIONS /api/polls/me","timestamp":"2026-05-15 18:56:50"}
+{"level":"info","message":"OPTIONS /api/polls/me","timestamp":"2026-05-15 18:56:50"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 18:56:50"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 18:56:50"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:56:50"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 18:56:50"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:02:48"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:02:48"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 19:04:16"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 19:04:16"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 19:04:16"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 19:04:16"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 19:04:16"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 19:05:17"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 19:05:17"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 19:05:17"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 19:05:17"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 19:05:17"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 19:05:19"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 19:05:19"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 19:05:19"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 19:05:19"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 19:05:19"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 19:05:20"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 19:05:20"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 19:05:20"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 19:05:20"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 19:05:20"}
+{"level":"info","message":"OPTIONS /api/auth/login","timestamp":"2026-05-15 19:05:50"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2026-05-15 19:05:50"}
+{"level":"info","message":"OPTIONS /api/polls/me","timestamp":"2026-05-15 19:05:50"}
+{"level":"info","message":"OPTIONS /api/polls/me","timestamp":"2026-05-15 19:05:50"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 19:05:50"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 19:05:50"}
+{"level":"info","message":"OPTIONS /api/polls","timestamp":"2026-05-15 19:06:14"}
+{"level":"info","message":"POST /api/polls","timestamp":"2026-05-15 19:06:14"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:06:32"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:06:32"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:06:32"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:06:33"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:06:33"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:06:33"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:06:33"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:06:33"}
+{"level":"info","message":"[socket] connected: CMLwgmFM11qvZTUWAAAC user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:06:33"}
+{"level":"info","message":"OPTIONS /api/polls","timestamp":"2026-05-15 19:07:55"}
+{"level":"info","message":"POST /api/polls","timestamp":"2026-05-15 19:07:55"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 19:11:20"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 19:11:20"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 19:11:20"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 19:11:20"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 19:11:20"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 19:11:21"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 19:11:22"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 19:11:22"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 19:11:22"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 19:11:22"}
+{"level":"info","message":"[socket] connected: 5LrxVRfy0c9yKh1KAAAB user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:11:22"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 19:11:41"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 19:11:41"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 19:11:41"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 19:11:41"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 19:11:41"}
+{"level":"info","message":"[socket] connected: syB5fTjz7AxuAUdLAAAB user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:11:43"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 19:12:33"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 19:12:33"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 19:12:33"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 19:12:33"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 19:12:33"}
+{"level":"info","message":"[socket] connected: p2GOhpE6sWlZ7rW5AAAB user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:12:34"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 19:13:18"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 19:13:18"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 19:13:18"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 19:13:18"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 19:13:18"}
+{"level":"info","message":"[socket] connected: nvlSECzX3Ae1Q6AHAAAB user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:13:19"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 19:13:26"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 19:13:26"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 19:13:26"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 19:13:26"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 19:13:26"}
+{"level":"info","message":"[socket] connected: sIpqBfFbQJcDCVrnAAAB user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:13:27"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 19:13:27"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 19:13:27"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 19:13:27"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 19:13:27"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 19:13:27"}
+{"level":"info","message":"[socket] connected: lkztqVED1tPg4Vb-AAAB user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:13:29"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 19:13:49"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 19:13:49"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 19:13:49"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 19:13:49"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 19:13:49"}
+{"level":"info","message":"[socket] connected: 8MP00FcyyjfOEYgmAAAB user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:13:50"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 19:13:52"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 19:13:52"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 19:13:52"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 19:13:52"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 19:13:52"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 19:13:53"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 19:13:53"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 19:13:53"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 19:13:53"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 19:13:53"}
+{"level":"info","message":"[socket] connected: GQFJYxFJbrCVikPPAAAB user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:13:54"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 19:14:52"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 19:14:52"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 19:14:52"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 19:14:52"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 19:14:52"}
+{"level":"info","message":"[socket] connected: c42NeCCbxadV6jL1AAAB user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:14:53"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 19:15:54"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 19:15:54"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 19:15:54"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 19:15:54"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 19:15:54"}
+{"level":"info","message":"[socket] connected: xNiHHvtzjBPJ5WnYAAAB user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:15:54"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 19:16:12"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 19:16:13"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 19:16:13"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 19:16:13"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 19:16:13"}
+{"level":"info","message":"[socket] connected: 43GH4kh_5DEZ4Sa1AAAB user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:16:14"}
+{"level":"info","message":"OPTIONS /api/polls","timestamp":"2026-05-15 19:16:45"}
+{"level":"info","message":"POST /api/polls","timestamp":"2026-05-15 19:16:45"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 19:18:57"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 19:18:57"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 19:18:57"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 19:18:57"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 19:18:58"}
+{"level":"info","message":"[socket] connected: _HHnnroR-C10_p3DAAAB user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:18:58"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 19:19:18"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 19:19:18"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 19:19:18"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 19:19:18"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 19:19:19"}
+{"level":"info","message":"[socket] connected: WNtswg2CFiFXCN12AAAB user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:19:20"}
+{"level":"info","message":"OPTIONS /api/polls","timestamp":"2026-05-15 19:19:30"}
+{"level":"info","message":"POST /api/polls","timestamp":"2026-05-15 19:19:30"}
+{"level":"info","message":"[socket] WNtswg2CFiFXCN12AAAB joined room poll:6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:19:31"}
+{"level":"info","message":"OPTIONS /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:19:31"}
+{"level":"info","message":"[socket] WNtswg2CFiFXCN12AAAB left room poll:6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:19:31"}
+{"level":"info","message":"[socket] WNtswg2CFiFXCN12AAAB joined room poll:6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:19:31"}
+{"level":"info","message":"OPTIONS /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558/summary","timestamp":"2026-05-15 19:19:31"}
+{"level":"info","message":"OPTIONS /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:19:31"}
+{"level":"info","message":"OPTIONS /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558/summary","timestamp":"2026-05-15 19:19:31"}
+{"level":"info","message":"GET /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:19:31"}
+{"level":"info","message":"GET /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558/summary","timestamp":"2026-05-15 19:19:31"}
+{"level":"info","message":"GET /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:19:31"}
+{"level":"info","message":"GET /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558/summary","timestamp":"2026-05-15 19:19:31"}
+{"level":"info","message":"OPTIONS /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:19:41"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:19:41"}
+{"level":"info","message":"OPTIONS /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:19:41"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:19:41"}
+{"level":"info","message":"GET /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:19:41"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:19:41"}
+{"level":"info","message":"GET /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:19:41"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:19:41"}
+{"level":"info","message":"[socket] connected: nKRlrBJKiCe5nSjvAAAE user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:19:41"}
+{"level":"info","message":"[socket] WNtswg2CFiFXCN12AAAB left room poll:6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:20:58"}
+{"level":"info","message":"OPTIONS /api/polls/me","timestamp":"2026-05-15 19:20:58"}
+{"level":"info","message":"OPTIONS /api/polls/me","timestamp":"2026-05-15 19:20:58"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 19:20:58"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 19:20:58"}
+{"level":"info","message":"[socket] disconnected: WNtswg2CFiFXCN12AAAB reason: transport close","timestamp":"2026-05-15 19:20:58"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:20:58"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:20:58"}
+{"level":"info","message":"[socket] connected: 6JaOc1LsxH4KgXvbAAAI user: anonymous","timestamp":"2026-05-15 19:21:01"}
+{"level":"info","message":"[socket] disconnected: 6JaOc1LsxH4KgXvbAAAI reason: transport close","timestamp":"2026-05-15 19:21:02"}
+{"level":"info","message":"[socket] connected: yWLh0gUHGzeJDzkaAAAK user: anonymous","timestamp":"2026-05-15 19:21:02"}
+{"level":"info","message":"[socket] disconnected: yWLh0gUHGzeJDzkaAAAK reason: transport close","timestamp":"2026-05-15 19:21:30"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:21:30"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:21:30"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:21:31"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:21:31"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:21:32"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:21:32"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:21:33"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:21:33"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 19:23:09"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 19:23:09"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 19:23:09"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 19:23:09"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 19:23:09"}
+{"level":"info","message":"[socket] connected: t98J7umabqn-UBEBAAAB user: anonymous","timestamp":"2026-05-15 19:23:11"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 19:23:43"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 19:23:43"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 19:23:43"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 19:23:43"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 19:23:43"}
+{"level":"info","message":"[socket] connected: V8LZo_eedjN-c_5lAAAB user: anonymous","timestamp":"2026-05-15 19:23:48"}
+{"level":"info","message":"OPTIONS /api/auth/login","timestamp":"2026-05-15 19:24:17"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2026-05-15 19:24:17"}
+{"level":"info","message":"OPTIONS /api/polls/me","timestamp":"2026-05-15 19:24:17"}
+{"level":"info","message":"OPTIONS /api/polls/me","timestamp":"2026-05-15 19:24:17"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 19:24:17"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 19:24:17"}
+{"level":"info","message":"OPTIONS /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:24:20"}
+{"level":"info","message":"OPTIONS /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558/summary","timestamp":"2026-05-15 19:24:20"}
+{"level":"info","message":"OPTIONS /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:24:20"}
+{"level":"info","message":"OPTIONS /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558/summary","timestamp":"2026-05-15 19:24:20"}
+{"level":"info","message":"GET /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:24:20"}
+{"level":"info","message":"GET /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558/summary","timestamp":"2026-05-15 19:24:20"}
+{"level":"info","message":"GET /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:24:20"}
+{"level":"info","message":"GET /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558/summary","timestamp":"2026-05-15 19:24:20"}
+{"level":"info","message":"[socket] disconnected: V8LZo_eedjN-c_5lAAAB reason: transport close","timestamp":"2026-05-15 19:24:27"}
+{"level":"info","message":"OPTIONS /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:24:28"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:24:28"}
+{"level":"info","message":"OPTIONS /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:24:28"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:24:28"}
+{"level":"info","message":"GET /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:24:28"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:24:28"}
+{"level":"info","message":"GET /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:24:28"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:24:28"}
+{"level":"info","message":"[socket] connected: p_qnc3H52unvE2VbAAAE user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:24:28"}
+{"level":"info","message":"[socket] disconnected: p_qnc3H52unvE2VbAAAE reason: transport close","timestamp":"2026-05-15 19:26:12"}
+{"level":"info","message":"OPTIONS /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:26:12"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:26:12"}
+{"level":"info","message":"OPTIONS /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:26:12"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:26:12"}
+{"level":"info","message":"GET /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:26:12"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:26:12"}
+{"level":"info","message":"GET /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:26:12"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:26:12"}
+{"level":"info","message":"[socket] connected: yhR4SfnBIaqf_lf2AAAH user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:26:12"}
+{"level":"info","message":"OPTIONS /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:28:58"}
+{"level":"info","message":"GET /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:28:58"}
+{"level":"info","message":"GET /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:29:02"}
+{"level":"info","message":"OPTIONS /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:29:07"}
+{"level":"info","message":"GET /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:29:07"}
+{"level":"info","message":"GET /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:29:11"}
+{"level":"info","message":"OPTIONS /api/polls/me","timestamp":"2026-05-15 19:30:02"}
+{"level":"info","message":"OPTIONS /api/polls/me","timestamp":"2026-05-15 19:30:02"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 19:30:02"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 19:30:02"}
+{"level":"info","message":"OPTIONS /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:30:05"}
+{"level":"info","message":"OPTIONS /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558/summary","timestamp":"2026-05-15 19:30:05"}
+{"level":"info","message":"OPTIONS /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:30:05"}
+{"level":"info","message":"OPTIONS /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558/summary","timestamp":"2026-05-15 19:30:05"}
+{"level":"info","message":"GET /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:30:05"}
+{"level":"info","message":"GET /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558/summary","timestamp":"2026-05-15 19:30:05"}
+{"level":"info","message":"GET /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:30:05"}
+{"level":"info","message":"GET /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558/summary","timestamp":"2026-05-15 19:30:05"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 19:30:06"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 19:30:06"}
+{"level":"info","message":"DELETE /api/polls/6efe6db2-c4c1-4241-ba58-c5b4c516a558","timestamp":"2026-05-15 19:30:09"}
+{"level":"info","message":"[socket] disconnected: yhR4SfnBIaqf_lf2AAAH reason: transport close","timestamp":"2026-05-15 19:30:11"}
+{"level":"info","message":"OPTIONS /api/polls","timestamp":"2026-05-15 19:30:38"}
+{"level":"info","message":"POST /api/polls","timestamp":"2026-05-15 19:30:38"}
+{"level":"info","message":"OPTIONS /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:30:38"}
+{"level":"info","message":"OPTIONS /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4/summary","timestamp":"2026-05-15 19:30:38"}
+{"level":"info","message":"OPTIONS /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:30:38"}
+{"level":"info","message":"OPTIONS /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4/summary","timestamp":"2026-05-15 19:30:38"}
+{"level":"info","message":"GET /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:30:38"}
+{"level":"info","message":"GET /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4/summary","timestamp":"2026-05-15 19:30:38"}
+{"level":"info","message":"GET /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:30:38"}
+{"level":"info","message":"GET /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4/summary","timestamp":"2026-05-15 19:30:38"}
+{"level":"info","message":"OPTIONS /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:30:44"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:30:44"}
+{"level":"info","message":"OPTIONS /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:30:44"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:30:44"}
+{"level":"info","message":"GET /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:30:44"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:30:44"}
+{"level":"info","message":"GET /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:30:44"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:30:44"}
+{"level":"info","message":"[socket] connected: oxgXjp2dt7SdeQB9AAAK user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:30:44"}
+{"level":"info","message":"OPTIONS /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:31:13"}
+{"level":"info","message":"GET /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:31:13"}
+{"level":"info","message":"OPTIONS /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:31:58"}
+{"level":"info","message":"GET /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:31:58"}
+{"level":"info","message":"OPTIONS /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:32:06"}
+{"level":"info","message":"GET /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:32:06"}
+{"level":"info","message":"[socket] disconnected: oxgXjp2dt7SdeQB9AAAK reason: transport close","timestamp":"2026-05-15 19:32:27"}
+{"level":"info","message":"OPTIONS /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:32:27"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:32:27"}
+{"level":"info","message":"OPTIONS /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:32:27"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:32:27"}
+{"level":"info","message":"GET /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:32:27"}
+{"level":"info","message":"GET /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:32:27"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:32:27"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:32:27"}
+{"level":"info","message":"[socket] connected: RPHlYq--u5z3mGn6AAAN user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:32:27"}
+{"level":"info","message":"[socket] disconnected: RPHlYq--u5z3mGn6AAAN reason: transport close","timestamp":"2026-05-15 19:36:49"}
+{"level":"info","message":"OPTIONS /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:36:49"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:36:49"}
+{"level":"info","message":"OPTIONS /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:36:49"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:36:49"}
+{"level":"info","message":"GET /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:36:49"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:36:49"}
+{"level":"info","message":"GET /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:36:49"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:36:49"}
+{"level":"info","message":"[socket] connected: 8xrZW_sM-7Xu5-WEAAAQ user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:36:49"}
+{"level":"info","message":"OPTIONS /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:41:30"}
+{"level":"info","message":"GET /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:41:30"}
+{"level":"info","message":"OPTIONS /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:41:43"}
+{"level":"info","message":"OPTIONS /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4/summary","timestamp":"2026-05-15 19:41:43"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:41:43"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:41:43"}
+{"level":"info","message":"OPTIONS /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:41:43"}
+{"level":"info","message":"OPTIONS /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4/summary","timestamp":"2026-05-15 19:41:43"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:41:43"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:41:43"}
+{"level":"info","message":"GET /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:41:43"}
+{"level":"info","message":"GET /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4/summary","timestamp":"2026-05-15 19:41:43"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:41:43"}
+{"level":"info","message":"GET /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4/summary","timestamp":"2026-05-15 19:41:43"}
+{"level":"info","message":"GET /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:41:43"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:41:43"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:41:43"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:41:43"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:41:43"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:41:43"}
+{"level":"info","message":"OPTIONS /api/auth/login","timestamp":"2026-05-15 19:41:51"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2026-05-15 19:41:51"}
+{"level":"info","message":"OPTIONS /api/polls/me","timestamp":"2026-05-15 19:41:51"}
+{"level":"info","message":"OPTIONS /api/polls/me","timestamp":"2026-05-15 19:41:51"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 19:41:51"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 19:41:51"}
+{"level":"info","message":"OPTIONS /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:41:53"}
+{"level":"info","message":"OPTIONS /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4/summary","timestamp":"2026-05-15 19:41:53"}
+{"level":"info","message":"OPTIONS /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:41:53"}
+{"level":"info","message":"OPTIONS /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4/summary","timestamp":"2026-05-15 19:41:53"}
+{"level":"info","message":"GET /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:41:53"}
+{"level":"info","message":"GET /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4/summary","timestamp":"2026-05-15 19:41:53"}
+{"level":"info","message":"GET /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:41:53"}
+{"level":"info","message":"GET /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4/summary","timestamp":"2026-05-15 19:41:53"}
+{"level":"info","message":"[socket] disconnected: 8xrZW_sM-7Xu5-WEAAAQ reason: transport close","timestamp":"2026-05-15 19:41:55"}
+{"level":"info","message":"GET /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:41:55"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:41:55"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:41:55"}
+{"level":"info","message":"GET /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:41:55"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:41:55"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:41:55"}
+{"level":"info","message":"[socket] connected: wdubgwHvBGRitPHpAAAV user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:41:55"}
+{"level":"info","message":"[socket] disconnected: wdubgwHvBGRitPHpAAAV reason: transport close","timestamp":"2026-05-15 19:41:59"}
+{"level":"info","message":"OPTIONS /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:42:03"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:42:03"}
+{"level":"info","message":"OPTIONS /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:42:03"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:42:03"}
+{"level":"info","message":"GET /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:42:03"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:42:03"}
+{"level":"info","message":"GET /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:42:03"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:42:03"}
+{"level":"info","message":"[socket] connected: bLNnAMkWekkYbie2AAAY user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:42:03"}
+{"level":"info","message":"OPTIONS /api/polls/me","timestamp":"2026-05-15 19:42:29"}
+{"level":"info","message":"OPTIONS /api/polls/me","timestamp":"2026-05-15 19:42:29"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 19:42:29"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 19:42:29"}
+{"level":"info","message":"OPTIONS /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:42:32"}
+{"level":"info","message":"DELETE /api/polls/be15c2cb-15e3-47a6-985f-bfcfc374d7a4","timestamp":"2026-05-15 19:42:32"}
+{"level":"info","message":"OPTIONS /api/polls","timestamp":"2026-05-15 19:42:52"}
+{"level":"info","message":"POST /api/polls","timestamp":"2026-05-15 19:42:52"}
+{"level":"info","message":"OPTIONS /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:42:52"}
+{"level":"info","message":"OPTIONS /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa/summary","timestamp":"2026-05-15 19:42:52"}
+{"level":"info","message":"OPTIONS /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:42:52"}
+{"level":"info","message":"OPTIONS /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa/summary","timestamp":"2026-05-15 19:42:52"}
+{"level":"info","message":"GET /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:42:52"}
+{"level":"info","message":"GET /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa/summary","timestamp":"2026-05-15 19:42:52"}
+{"level":"info","message":"GET /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:42:52"}
+{"level":"info","message":"GET /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa/summary","timestamp":"2026-05-15 19:42:52"}
+{"level":"info","message":"[socket] disconnected: bLNnAMkWekkYbie2AAAY reason: transport close","timestamp":"2026-05-15 19:42:57"}
+{"level":"info","message":"GET /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:42:57"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:42:57"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:42:57"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:42:57"}
+{"level":"info","message":"GET /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:42:57"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:42:57"}
+{"level":"info","message":"[socket] connected: RAgcMlz5Ao7S7yKrAAAb user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:42:57"}
+{"level":"info","message":"GET /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:45:24"}
+{"level":"info","message":"GET /favicon.ico","timestamp":"2026-05-15 19:45:24"}
+{"level":"info","message":"GET /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:45:46"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 19:47:59"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 19:47:59"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 19:47:59"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 19:47:59"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 19:47:59"}
+{"level":"info","message":"[socket] connected: rtv3KNB-J81Ac3VwAAAB user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:48:00"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 19:52:52"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 19:52:52"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 19:52:52"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 19:52:52"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 19:52:52"}
+{"level":"info","message":"[socket] connected: qKhm-9KSz28XPIixAAAB user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:52:54"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 19:53:00"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 19:53:00"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 19:53:00"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 19:53:00"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 19:53:00"}
+{"level":"info","message":"[socket] connected: LF9Mu5LR8KcTSnvxAAAB user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:53:02"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 19:53:03"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 19:53:03"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 19:53:03"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 19:53:03"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 19:53:03"}
+{"level":"info","message":"[socket] connected: x67p7jceYnValwA3AAAB user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:53:04"}
+{"level":"info","message":"[socket] disconnected: x67p7jceYnValwA3AAAB reason: transport close","timestamp":"2026-05-15 19:53:15"}
+{"level":"info","message":"OPTIONS /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:53:15"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:53:15"}
+{"level":"info","message":"OPTIONS /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:53:15"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:53:15"}
+{"level":"info","message":"GET /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:53:15"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:53:15"}
+{"level":"info","message":"GET /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:53:15"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:53:15"}
+{"level":"info","message":"[socket] connected: 1B4lQsnmfDGTOSArAAAE user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:53:15"}
+{"level":"info","message":"[socket] disconnected: 1B4lQsnmfDGTOSArAAAE reason: transport close","timestamp":"2026-05-15 19:53:19"}
+{"level":"info","message":"OPTIONS /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:53:25"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:53:25"}
+{"level":"info","message":"OPTIONS /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:53:25"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:53:25"}
+{"level":"info","message":"GET /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:53:25"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:53:25"}
+{"level":"info","message":"GET /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:53:25"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:53:25"}
+{"level":"info","message":"[socket] connected: PZ8jkO9Ys5_VzCkHAAAH user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:53:25"}
+{"level":"info","message":"[socket] disconnected: PZ8jkO9Ys5_VzCkHAAAH reason: transport close","timestamp":"2026-05-15 19:54:29"}
+{"level":"info","message":"OPTIONS /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:54:29"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:54:29"}
+{"level":"info","message":"OPTIONS /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:54:29"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:54:29"}
+{"level":"info","message":"GET /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:54:29"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:54:29"}
+{"level":"info","message":"GET /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:54:29"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:54:29"}
+{"level":"info","message":"[socket] connected: hJ61mh1orXDTZj2EAAAK user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:54:29"}
+{"level":"info","message":"OPTIONS /api/polls","timestamp":"2026-05-15 19:55:43"}
+{"level":"info","message":"POST /api/polls","timestamp":"2026-05-15 19:55:43"}
+{"level":"info","message":"OPTIONS /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 19:55:43"}
+{"level":"info","message":"OPTIONS /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23/summary","timestamp":"2026-05-15 19:55:43"}
+{"level":"info","message":"OPTIONS /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 19:55:43"}
+{"level":"info","message":"OPTIONS /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23/summary","timestamp":"2026-05-15 19:55:43"}
+{"level":"info","message":"GET /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 19:55:43"}
+{"level":"info","message":"GET /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23/summary","timestamp":"2026-05-15 19:55:43"}
+{"level":"info","message":"GET /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 19:55:43"}
+{"level":"info","message":"GET /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23/summary","timestamp":"2026-05-15 19:55:43"}
+{"level":"info","message":"GET /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 19:55:47"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:55:47"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:55:47"}
+{"level":"info","message":"GET /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 19:55:47"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:55:47"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:55:47"}
+{"level":"info","message":"[socket] connected: rTnF1y5HK49nGxEDAAAN user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:55:47"}
+{"level":"info","message":"[socket] disconnected: rTnF1y5HK49nGxEDAAAN reason: transport close","timestamp":"2026-05-15 19:56:07"}
+{"level":"info","message":"OPTIONS /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 19:56:07"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:56:07"}
+{"level":"info","message":"OPTIONS /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 19:56:07"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:56:07"}
+{"level":"info","message":"GET /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 19:56:07"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:56:07"}
+{"level":"info","message":"GET /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 19:56:07"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:56:07"}
+{"level":"info","message":"[socket] connected: 1B9ClvQ9lhSW3a4TAAAQ user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 19:56:07"}
+{"level":"info","message":"OPTIONS /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 19:57:25"}
+{"level":"info","message":"OPTIONS /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:57:25"}
+{"level":"info","message":"GET /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 19:57:25"}
+{"level":"info","message":"GET /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:57:25"}
+{"level":"info","message":"OPTIONS /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 19:57:30"}
+{"level":"info","message":"OPTIONS /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:57:30"}
+{"level":"info","message":"GET /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 19:57:30"}
+{"level":"info","message":"GET /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:57:30"}
+{"level":"info","message":"OPTIONS /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:57:32"}
+{"level":"info","message":"OPTIONS /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 19:57:32"}
+{"level":"info","message":"GET /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:57:32"}
+{"level":"info","message":"GET /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 19:57:32"}
+{"level":"info","message":"OPTIONS /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 19:57:59"}
+{"level":"info","message":"OPTIONS /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:57:59"}
+{"level":"info","message":"GET /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 19:57:59"}
+{"level":"info","message":"GET /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:57:59"}
+{"level":"info","message":"OPTIONS /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:58:09"}
+{"level":"info","message":"OPTIONS /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 19:58:09"}
+{"level":"info","message":"GET /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:58:09"}
+{"level":"info","message":"GET /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 19:58:09"}
+{"level":"info","message":"OPTIONS /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:58:18"}
+{"level":"info","message":"OPTIONS /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 19:58:18"}
+{"level":"info","message":"GET /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 19:58:18"}
+{"level":"info","message":"GET /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 19:58:18"}
+{"level":"info","message":"[socket] disconnected: 1B9ClvQ9lhSW3a4TAAAQ reason: transport close","timestamp":"2026-05-15 19:58:29"}
+{"level":"info","message":"OPTIONS /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 19:58:30"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:58:30"}
+{"level":"info","message":"OPTIONS /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 19:58:30"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:58:30"}
+{"level":"info","message":"GET /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 19:58:30"}
+{"level":"info","message":"GET /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 19:58:30"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:58:30"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:58:30"}
+{"level":"info","message":"OPTIONS /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 19:58:45"}
+{"level":"info","message":"OPTIONS /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23/summary","timestamp":"2026-05-15 19:58:45"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:58:45"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:58:45"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:58:45"}
+{"level":"info","message":"OPTIONS /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 19:58:45"}
+{"level":"info","message":"OPTIONS /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23/summary","timestamp":"2026-05-15 19:58:45"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 19:58:45"}
+{"level":"info","message":"GET /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 19:58:45"}
+{"level":"info","message":"GET /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23/summary","timestamp":"2026-05-15 19:58:45"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:58:45"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:58:45"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:58:45"}
+{"level":"info","message":"GET /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 19:58:45"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:58:45"}
+{"level":"info","message":"GET /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23/summary","timestamp":"2026-05-15 19:58:45"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:58:46"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 19:58:46"}
+{"level":"info","message":"OPTIONS /api/auth/login","timestamp":"2026-05-15 20:00:23"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2026-05-15 20:00:23"}
+{"level":"info","message":"OPTIONS /api/polls/me","timestamp":"2026-05-15 20:00:23"}
+{"level":"info","message":"OPTIONS /api/polls/me","timestamp":"2026-05-15 20:00:23"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 20:00:23"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 20:00:23"}
+{"level":"info","message":"OPTIONS /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 20:00:26"}
+{"level":"info","message":"DELETE /api/polls/4fbcd2b7-1f59-42e4-b09e-abd48c10aeaa","timestamp":"2026-05-15 20:00:26"}
+{"level":"info","message":"OPTIONS /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 20:00:30"}
+{"level":"info","message":"DELETE /api/polls/128b8a19-e1ea-44fe-977d-8e02cf25cd23","timestamp":"2026-05-15 20:00:30"}
+{"level":"info","message":"OPTIONS /api/polls","timestamp":"2026-05-15 20:00:48"}
+{"level":"info","message":"POST /api/polls","timestamp":"2026-05-15 20:00:48"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:00:48"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1/summary","timestamp":"2026-05-15 20:00:48"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:00:48"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1/summary","timestamp":"2026-05-15 20:00:48"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:00:48"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1/summary","timestamp":"2026-05-15 20:00:48"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:00:48"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1/summary","timestamp":"2026-05-15 20:00:48"}
+{"level":"info","message":"[socket] disconnected: hJ61mh1orXDTZj2EAAAK reason: transport close","timestamp":"2026-05-15 20:00:52"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:00:55"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:00:55"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:00:55"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:00:55"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:00:55"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:00:55"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:00:55"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:00:55"}
+{"level":"info","message":"[socket] connected: 0kE2KcoBNCVHrOHEAAAV user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 20:00:55"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 20:01:37"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 20:01:37"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 20:01:37"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 20:01:37"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 20:01:37"}
+{"level":"info","message":"[socket] connected: Njh6Cdz3KerVUJUuAAAB user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 20:01:38"}
+{"level":"info","message":"[socket] disconnected: Njh6Cdz3KerVUJUuAAAB reason: transport close","timestamp":"2026-05-15 20:01:51"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:01:51"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:01:51"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:01:51"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:01:51"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:01:51"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:01:51"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:01:51"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:01:51"}
+{"level":"info","message":"[socket] connected: h1XalviR_k2lFFwMAAAE user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 20:01:51"}
+{"level":"info","message":"[socket] disconnected: h1XalviR_k2lFFwMAAAE reason: transport close","timestamp":"2026-05-15 20:01:54"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:02:08"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1/summary","timestamp":"2026-05-15 20:02:08"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:02:08"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:02:08"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:02:08"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:02:08"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1/summary","timestamp":"2026-05-15 20:02:08"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:02:08"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:02:08"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1/summary","timestamp":"2026-05-15 20:02:08"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:02:08"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:02:08"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:02:08"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:02:08"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:02:08"}
+{"level":"info","message":"[socket] connected: 18WWHxWoDbKSr2VrAAAH user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 20:02:08"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:02:08"}
+{"level":"info","message":"[socket] 18WWHxWoDbKSr2VrAAAH joined room poll:bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:02:08"}
+{"level":"info","message":"[socket] 18WWHxWoDbKSr2VrAAAH left room poll:bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:02:08"}
+{"level":"info","message":"[socket] 18WWHxWoDbKSr2VrAAAH joined room poll:bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:02:08"}
+{"level":"info","message":"[socket] 18WWHxWoDbKSr2VrAAAH left room poll:bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:02:08"}
+{"level":"info","message":"[socket] 18WWHxWoDbKSr2VrAAAH joined room poll:bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:02:08"}
+{"level":"info","message":"[socket] 18WWHxWoDbKSr2VrAAAH left room poll:bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:02:08"}
+{"level":"info","message":"[socket] 18WWHxWoDbKSr2VrAAAH joined room poll:bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:02:08"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1/summary","timestamp":"2026-05-15 20:02:08"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:02:08"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1/summary","timestamp":"2026-05-15 20:02:08"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1/summary","timestamp":"2026-05-15 20:02:08"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:02:14"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:02:14"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:02:14"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:02:14"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:02:14"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:02:14"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:02:14"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:02:14"}
+{"level":"info","message":"[socket] connected: Cnx59IlyvnJlOmo-AAAK user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 20:02:14"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 20:03:28"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 20:03:28"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 20:03:28"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 20:03:28"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 20:03:28"}
+{"level":"info","message":"[socket] connected: zoUs8wNt57K4I2ufAAAB user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 20:03:29"}
+{"level":"info","message":"[socket] connected: QHPFXn24IUG-sx20AAAD user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 20:03:29"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 20:04:58"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 20:04:58"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 20:04:58"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 20:04:58"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 20:04:58"}
+{"level":"info","message":"[socket] connected: S0SCKVc66KuvyrRUAAAB user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 20:04:59"}
+{"level":"info","message":"[socket] connected: YzdrXfyMz-xLmQ2OAAAD user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 20:04:59"}
+{"level":"info","message":"[socket] disconnected: YzdrXfyMz-xLmQ2OAAAD reason: transport close","timestamp":"2026-05-15 20:05:02"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:05:02"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:05:02"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:05:02"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:05:02"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:05:02"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:05:02"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:05:02"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:05:02"}
+{"level":"info","message":"[socket] connected: gNN_6s6V-LQ3Z2bEAAAG user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 20:05:02"}
+{"level":"info","message":"[socket] disconnected: S0SCKVc66KuvyrRUAAAB reason: transport close","timestamp":"2026-05-15 20:05:32"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:05:32"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1/summary","timestamp":"2026-05-15 20:05:32"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:05:32"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:05:32"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:05:32"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1/summary","timestamp":"2026-05-15 20:05:32"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:05:32"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:05:32"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:05:32"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1/summary","timestamp":"2026-05-15 20:05:32"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:05:32"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:05:32"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:05:32"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1/summary","timestamp":"2026-05-15 20:05:32"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:05:32"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:05:32"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:05:33"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1/summary","timestamp":"2026-05-15 20:05:33"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:05:33"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1/summary","timestamp":"2026-05-15 20:05:33"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:05:33"}
+{"level":"info","message":"[socket] connected: ezk_5MDRIdNnDgysAAAJ user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 20:05:33"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1/summary","timestamp":"2026-05-15 20:05:33"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:05:33"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1/summary","timestamp":"2026-05-15 20:05:33"}
+{"level":"info","message":"[socket] ezk_5MDRIdNnDgysAAAJ joined room poll:bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:05:33"}
+{"level":"info","message":"[socket] ezk_5MDRIdNnDgysAAAJ left room poll:bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:05:33"}
+{"level":"info","message":"[socket] ezk_5MDRIdNnDgysAAAJ joined room poll:bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:05:33"}
+{"level":"info","message":"[socket] ezk_5MDRIdNnDgysAAAJ left room poll:bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:05:33"}
+{"level":"info","message":"[socket] ezk_5MDRIdNnDgysAAAJ joined room poll:bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:05:33"}
+{"level":"info","message":"[socket] ezk_5MDRIdNnDgysAAAJ left room poll:bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:05:33"}
+{"level":"info","message":"[socket] ezk_5MDRIdNnDgysAAAJ joined room poll:bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:05:33"}
+{"level":"info","message":"[socket] disconnected: ezk_5MDRIdNnDgysAAAJ reason: transport close","timestamp":"2026-05-15 20:12:11"}
+{"level":"info","message":"[socket] disconnected: gNN_6s6V-LQ3Z2bEAAAG reason: transport close","timestamp":"2026-05-15 20:12:11"}
+{"level":"info","message":"[socket] connected: ktfujnEV-xZ9wJyyAAAM user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 20:12:32"}
+{"level":"info","message":"[socket] connected: rG-ORX7WrKu0CHhmAAAN user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 20:12:33"}
+{"level":"info","message":"[socket] disconnected: ktfujnEV-xZ9wJyyAAAM reason: transport close","timestamp":"2026-05-15 20:12:33"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:12:37"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:12:37"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:12:37"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:12:37"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:12:37"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:12:37"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:12:37"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:12:37"}
+{"level":"info","message":"[socket] connected: Zqq2-NhGn_VVixX_AAAQ user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 20:12:37"}
+{"level":"info","message":"[socket] disconnected: Zqq2-NhGn_VVixX_AAAQ reason: transport close","timestamp":"2026-05-15 20:15:38"}
+{"level":"info","message":"[socket] disconnected: rG-ORX7WrKu0CHhmAAAN reason: transport close","timestamp":"2026-05-15 20:15:38"}
+{"level":"info","message":"[socket] connected: h4REebKKg923Tnd3AAAT user: anonymous","timestamp":"2026-05-15 20:15:52"}
+{"level":"info","message":"[socket] connected: vZswU02HvI12T-KXAAAU user: anonymous","timestamp":"2026-05-15 20:15:52"}
+{"level":"info","message":"[socket] disconnected: vZswU02HvI12T-KXAAAU reason: transport close","timestamp":"2026-05-15 20:16:28"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:16:29"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:16:29"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:16:29"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:16:29"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:16:29"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:16:29"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:16:29"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:16:29"}
+{"level":"info","message":"[socket] disconnected: h4REebKKg923Tnd3AAAT reason: transport close","timestamp":"2026-05-15 20:16:33"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:16:34"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1/summary","timestamp":"2026-05-15 20:16:34"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:16:34"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:16:34"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:16:34"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1/summary","timestamp":"2026-05-15 20:16:34"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:16:34"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:16:34"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:16:34"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:16:34"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1/summary","timestamp":"2026-05-15 20:16:34"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:16:34"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:16:34"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1/summary","timestamp":"2026-05-15 20:16:34"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:16:34"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:16:34"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:16:34"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:16:34"}
+{"level":"info","message":"OPTIONS /api/auth/login","timestamp":"2026-05-15 20:16:41"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2026-05-15 20:16:41"}
+{"level":"info","message":"OPTIONS /api/polls/me","timestamp":"2026-05-15 20:16:42"}
+{"level":"info","message":"OPTIONS /api/polls/me","timestamp":"2026-05-15 20:16:42"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 20:16:42"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 20:16:42"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:16:44"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1/summary","timestamp":"2026-05-15 20:16:44"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:16:44"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1/summary","timestamp":"2026-05-15 20:16:44"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:16:44"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1/summary","timestamp":"2026-05-15 20:16:44"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:16:44"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1/summary","timestamp":"2026-05-15 20:16:44"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:16:50"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:16:50"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:16:50"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:16:50"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:16:50"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:16:50"}
+{"level":"info","message":"GET /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:16:50"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:16:50"}
+{"level":"info","message":"[socket] connected: HjZlqClFSkCPuX_tAAAZ user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 20:16:50"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 20:21:23"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 20:21:23"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 20:21:23"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 20:21:23"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 20:21:23"}
+{"level":"info","message":"[socket] connected: df24cY4byqNXo_yaAAAB user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 20:21:24"}
+{"level":"info","message":"[socket] disconnected: df24cY4byqNXo_yaAAAB reason: transport close","timestamp":"2026-05-15 20:21:32"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 20:21:47"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 20:21:47"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 20:21:47"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 20:21:47"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 20:21:47"}
+{"level":"info","message":"Initializing server","timestamp":"2026-05-15 20:21:55"}
+{"level":"info","message":"PostgreSQL connected successfully","timestamp":"2026-05-15 20:21:55"}
+{"level":"info","message":"[socket] Socket.io initialized","timestamp":"2026-05-15 20:21:55"}
+{"level":"info","message":"Server started successfully","timestamp":"2026-05-15 20:21:55"}
+{"level":"info","message":"Server is listening on port http://localhost:4000","timestamp":"2026-05-15 20:21:56"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:22:26"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:22:26"}
+{"level":"info","message":"OPTIONS /api/polls/me","timestamp":"2026-05-15 20:22:26"}
+{"level":"info","message":"OPTIONS /api/polls/me","timestamp":"2026-05-15 20:22:26"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:22:26"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 20:22:26"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:22:26"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 20:22:26"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:22:26"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:22:26"}
+{"level":"info","message":"[socket] connected: Km9yrRMQ1NHgrs_cAAAC user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 20:22:26"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 20:22:26"}
+{"level":"info","message":"[socket] disconnected: Km9yrRMQ1NHgrs_cAAAC reason: transport close","timestamp":"2026-05-15 20:22:26"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 20:22:26"}
+{"level":"info","message":"[socket] connected: 2JyPpOE88Dg-naaVAAAE user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 20:22:27"}
+{"level":"info","message":"OPTIONS /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:22:32"}
+{"level":"info","message":"DELETE /api/polls/bca2ed2c-d3d2-4226-a701-75617a8660c1","timestamp":"2026-05-15 20:22:32"}
+{"level":"info","message":"OPTIONS /api/polls","timestamp":"2026-05-15 20:22:52"}
+{"level":"info","message":"POST /api/polls","timestamp":"2026-05-15 20:22:52"}
+{"level":"info","message":"OPTIONS /api/polls/d4f5a40a-122e-42b6-a460-20a14391da3c/publish","timestamp":"2026-05-15 20:22:52"}
+{"level":"info","message":"PATCH /api/polls/d4f5a40a-122e-42b6-a460-20a14391da3c/publish","timestamp":"2026-05-15 20:22:52"}
+{"level":"info","message":"[socket] 2JyPpOE88Dg-naaVAAAE joined room poll:d4f5a40a-122e-42b6-a460-20a14391da3c","timestamp":"2026-05-15 20:22:52"}
+{"level":"info","message":"[socket] 2JyPpOE88Dg-naaVAAAE left room poll:d4f5a40a-122e-42b6-a460-20a14391da3c","timestamp":"2026-05-15 20:22:52"}
+{"level":"info","message":"[socket] 2JyPpOE88Dg-naaVAAAE joined room poll:d4f5a40a-122e-42b6-a460-20a14391da3c","timestamp":"2026-05-15 20:22:52"}
+{"level":"info","message":"OPTIONS /api/polls/d4f5a40a-122e-42b6-a460-20a14391da3c","timestamp":"2026-05-15 20:22:52"}
+{"level":"info","message":"OPTIONS /api/polls/d4f5a40a-122e-42b6-a460-20a14391da3c/summary","timestamp":"2026-05-15 20:22:52"}
+{"level":"info","message":"OPTIONS /api/polls/d4f5a40a-122e-42b6-a460-20a14391da3c","timestamp":"2026-05-15 20:22:52"}
+{"level":"info","message":"OPTIONS /api/polls/d4f5a40a-122e-42b6-a460-20a14391da3c/summary","timestamp":"2026-05-15 20:22:52"}
+{"level":"info","message":"GET /api/polls/d4f5a40a-122e-42b6-a460-20a14391da3c","timestamp":"2026-05-15 20:22:52"}
+{"level":"info","message":"GET /api/polls/d4f5a40a-122e-42b6-a460-20a14391da3c/summary","timestamp":"2026-05-15 20:22:52"}
+{"level":"info","message":"GET /api/polls/d4f5a40a-122e-42b6-a460-20a14391da3c","timestamp":"2026-05-15 20:22:52"}
+{"level":"info","message":"GET /api/polls/d4f5a40a-122e-42b6-a460-20a14391da3c/summary","timestamp":"2026-05-15 20:22:52"}
+{"level":"info","message":"GET /api/polls/d4f5a40a-122e-42b6-a460-20a14391da3c","timestamp":"2026-05-15 20:22:56"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:22:56"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:22:56"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:22:56"}
+{"level":"info","message":"GET /api/polls/d4f5a40a-122e-42b6-a460-20a14391da3c","timestamp":"2026-05-15 20:22:56"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:22:56"}
+{"level":"info","message":"[socket] connected: rajxDwWtrXQirySpAAAH user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 20:22:56"}
+{"level":"info","message":"OPTIONS /api/polls/d4f5a40a-122e-42b6-a460-20a14391da3c/vote","timestamp":"2026-05-15 20:23:00"}
+{"level":"info","message":"POST /api/polls/d4f5a40a-122e-42b6-a460-20a14391da3c/vote","timestamp":"2026-05-15 20:23:00"}
+{"level":"info","message":"OPTIONS /api/polls/d4f5a40a-122e-42b6-a460-20a14391da3c","timestamp":"2026-05-15 20:23:07"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:23:07"}
+{"level":"info","message":"OPTIONS /api/polls/d4f5a40a-122e-42b6-a460-20a14391da3c","timestamp":"2026-05-15 20:23:07"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:23:07"}
+{"level":"info","message":"GET /api/polls/d4f5a40a-122e-42b6-a460-20a14391da3c","timestamp":"2026-05-15 20:23:07"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:23:07"}
+{"level":"info","message":"GET /api/polls/d4f5a40a-122e-42b6-a460-20a14391da3c","timestamp":"2026-05-15 20:23:07"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:23:07"}
+{"level":"info","message":"[socket] connected: YkfyRufJnj9uiH5kAAAK user: 3a9a7bf6-b78f-42b8-8ef0-a92b44c2b732","timestamp":"2026-05-15 20:23:07"}
+{"level":"info","message":"OPTIONS /api/polls/d4f5a40a-122e-42b6-a460-20a14391da3c/vote","timestamp":"2026-05-15 20:23:09"}
+{"level":"info","message":"POST /api/polls/d4f5a40a-122e-42b6-a460-20a14391da3c/vote","timestamp":"2026-05-15 20:23:09"}
+{"level":"info","message":"POST /api/polls/d4f5a40a-122e-42b6-a460-20a14391da3c/vote","timestamp":"2026-05-15 20:23:11"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:23:30"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:23:30"}
+{"level":"info","message":"OPTIONS /api/auth/login","timestamp":"2026-05-15 20:23:37"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2026-05-15 20:23:37"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:23:37"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:23:37"}
+{"level":"info","message":"OPTIONS /api/auth/register","timestamp":"2026-05-15 20:23:51"}
+{"level":"info","message":"POST /api/auth/register","timestamp":"2026-05-15 20:23:51"}
+{"level":"info","message":"OPTIONS /api/polls/me","timestamp":"2026-05-15 20:23:52"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 20:23:52"}
+{"level":"info","message":"GET /api/polls/me","timestamp":"2026-05-15 20:23:52"}
+{"level":"info","message":"OPTIONS /api/polls/d4f5a40a-122e-42b6-a460-20a14391da3c","timestamp":"2026-05-15 20:23:58"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:23:58"}
+{"level":"info","message":"OPTIONS /api/polls/d4f5a40a-122e-42b6-a460-20a14391da3c","timestamp":"2026-05-15 20:23:58"}
+{"level":"info","message":"OPTIONS /api/auth/me","timestamp":"2026-05-15 20:23:58"}
+{"level":"info","message":"GET /api/polls/d4f5a40a-122e-42b6-a460-20a14391da3c","timestamp":"2026-05-15 20:23:58"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:23:58"}
+{"level":"info","message":"GET /api/polls/d4f5a40a-122e-42b6-a460-20a14391da3c","timestamp":"2026-05-15 20:23:58"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-05-15 20:23:58"}
+{"level":"info","message":"[socket] connected: H7dLp6m1IWX6t627AAAP user: 69a7eac1-4dc8-4122-8e67-f21764ea9d80","timestamp":"2026-05-15 20:23:58"}
+{"level":"info","message":"OPTIONS /api/polls/d4f5a40a-122e-42b6-a460-20a14391da3c/vote","timestamp":"2026-05-15 20:24:01"}
+{"level":"info","message":"POST /api/polls/d4f5a40a-122e-42b6-a460-20a14391da3c/vote","timestamp":"2026-05-15 20:24:01"}
+{"level":"info","message":"[socket] disconnected: rajxDwWtrXQirySpAAAH reason: transport close","timestamp":"2026-05-15 20:24:08"}
+{"level":"info","message":"[socket] disconnected: YkfyRufJnj9uiH5kAAAK reason: transport close","timestamp":"2026-05-15 20:24:09"}
+{"level":"info","message":"[socket] disconnected: 2JyPpOE88Dg-naaVAAAE reason: transport close","timestamp":"2026-05-15 20:24:10"}
+{"level":"info","message":"[socket] disconnected: H7dLp6m1IWX6t627AAAP reason: transport close","timestamp":"2026-05-15 20:24:35"}

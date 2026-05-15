@@ -11,6 +11,7 @@ import { CreatePollDTO, PollQueryDTO, UpdatePollDTO } from "./poll.dto";
 import { emitPollClosed, emitPollPublished } from "../poll/poll.event"; // ← add this
 
 export async function createPollService(creatorId: string, data: CreatePollDTO) {
+  console.log("Incoming Poll Data:", data);
   if (data.expiresAt && new Date(data.expiresAt) <= new Date()) {
     throw new BadRequestError("Expiry date must be in the future");
   }
@@ -21,6 +22,8 @@ export async function createPollService(creatorId: string, data: CreatePollDTO) 
   }
 
   return createPollRepository(creatorId, data);
+
+  
 }
 
 export async function getPollService(pollId: string, requesterId?: string) {

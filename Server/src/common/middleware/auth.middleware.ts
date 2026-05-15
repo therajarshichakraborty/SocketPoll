@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from "express";
 import jwt from "jsonwebtoken";
-import { UnauthorizedError } from "../utils/api.error";
+import { ApiError, UnauthorizedError } from "../utils/api.error";
 import { env } from "../config/env.config";
 
 const JWT_SECRET = env.JWT_ACCESS_SECRET;
@@ -17,18 +17,19 @@ declare global {
     }
   }
 }
-
+// ✅ Return null instead of throwing
 function extractToken(req: Request): string | null {
   const authHeader = req.headers.authorization;
-  if (authHeader?.startsWith("Bearer ")) {
-    return authHeader.slice(7);
+
+  if (!authHeader?.startsWith("Bearer ")) {
+    return null; // ← return null, don't throw
   }
-  return null;
+  return authHeader.split(" ")[1];
 }
 
 export function authenticate(req: Request, res: Response, next: NextFunction) {
   const token = extractToken(req);
-  if (!token) return next(new UnauthorizedError("No token provided"));
+  if (!token) return next(new UnauthorizedError("No token provided")); // ← authenticate still throws
 
   try {
     const payload = jwt.verify(token, JWT_SECRET) as JWTPayload;
@@ -40,13 +41,12 @@ export function authenticate(req: Request, res: Response, next: NextFunction) {
 }
 
 export function optionalAuthenticate(req: Request, res: Response, next: NextFunction) {
-  const token = extractToken(req);
+  const token = extractToken(req); // ← now safely returns null
   if (token) {
     try {
       const payload = jwt.verify(token, JWT_SECRET) as JWTPayload;
       req.user = payload;
     } catch {
-      // treat as unauthenticated, don't block
     }
   }
   next();

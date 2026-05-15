@@ -12,7 +12,7 @@ const questionValidator = z.object({
   options: z
     .array(optionValidator)
     .min(2, "Each question needs at least 2 options")
-    .max(10, "Max 5 options per question")
+    .max(10, "Max 10 options per question")
     .refine((opts) => new Set(opts.map((o) => o.text.toLowerCase())).size === opts.length, {
       message: "Duplicate options are not allowed",
     }),
@@ -24,12 +24,15 @@ export const createPollValidator = z.object({
   isAnonymous: z.boolean().optional().default(true),
   requireAuth: z.boolean().optional().default(false),
   expiresAt: z
-    .string()
-    .datetime({ message: "Invalid date format" })
-    .optional()
-    .refine((val) => !val || new Date(val) > new Date(), {
+  .coerce
+  .date()
+  .optional()
+  .refine(
+    (val) => !val || val > new Date(),
+    {
       message: "Expiry date must be in the future",
-    }),
+    }
+  ),
   questions: z
     .array(questionValidator)
     .min(1, "At least one question required")

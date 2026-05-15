@@ -113,7 +113,8 @@ export default function VotePage() {
     );
   }
 
-  const isExpired = poll?.expiresAt && new Date(poll.expiresAt) < new Date();
+  const isExpired = !!poll?.expiresAt && Date.now() > new Date(poll.expiresAt).getTime();
+
   const canVote = poll?.isPublished && !poll?.isClosed && !isExpired;
 
   // ── Submitted state ───────────────────────────────────────────────────────
@@ -131,12 +132,20 @@ export default function VotePage() {
     );
   }
 
+  console.log("POLL:", poll);
+  console.log("EXPIRES:", poll?.expiresAt);
+  console.log("NOW:", new Date());
+  console.log(
+    "EXPIRED CHECK:",
+    !!poll?.expiresAt && Date.now() > new Date(poll.expiresAt).getTime(),
+  );
   return (
     <div className="max-w-2xl mx-auto px-4 py-10">
       {/* Poll header */}
       <div className="mb-6 animate-fade-in">
         <div className="flex flex-wrap items-center gap-2 mb-3">
           {poll?.isClosed && <Badge variant="secondary">Closed</Badge>}
+
           {isExpired && <Badge variant="warning">Expired</Badge>}
           {poll?.isPublished && !poll?.isClosed && !isExpired && (
             <Badge variant="success">Live</Badge>

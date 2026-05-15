@@ -1,5 +1,5 @@
 import { Router } from "express";
-//import { authenticate, optionalAuthenticate } from "@/common/middleware/auth.middleware";
+import { authenticate, optionalAuthenticate } from "../../common/middleware/auth.middleware";
 import {
   getPollResultsController,
   getPollSummaryController,
@@ -14,7 +14,16 @@ router.get("/trending", getTrendingPollsController);
 router.get("/:pollId/results", getPollResultsController);
 
 // Creator only
-router.get("/:pollId/summary", getPollSummaryController);
-router.get("/:pollId/timeline", getVoteTimelineController);
+router.get(
+  "/:pollId/summary",
+  authenticate,
+  getPollSummaryController
+);
+
+router.get(
+  "/:pollId/timeline",
+  authenticate,
+  getVoteTimelineController
+);
 
 export default router;
