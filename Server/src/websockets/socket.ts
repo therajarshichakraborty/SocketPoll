@@ -11,7 +11,7 @@ let io: SocketServer;
 export function initSocket(httpServer: HttpServer): SocketServer {
   io = new SocketServer(httpServer, {
     cors: {
-      origin: env.CLIENT_URL,
+      origin: "https://socket-poll.vercel.app",
       methods: ["GET", "POST"],
       credentials: true,
     },
