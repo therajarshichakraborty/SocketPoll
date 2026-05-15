@@ -4,7 +4,7 @@ let socket: Socket | null = null;
 
 export function getSocket(): Socket {
   if (!socket) {
-    socket = io("http://localhost:4000", {
+    socket = io("https://socketpoll.onrender.com", {
       auth: { token: localStorage.getItem("token") },
       autoConnect: true,
       withCredentials: true,

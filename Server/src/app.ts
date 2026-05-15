@@ -19,7 +19,7 @@ export function createApp(): Application {
   app.use(requestLogger);
 
   app.use(cors({
-    origin: "http://localhost:3000",   
+    origin: "https://socket-poll.vercel.app",   
     credentials: true,                 
     methods: ["GET", "POST", "PATCH", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
